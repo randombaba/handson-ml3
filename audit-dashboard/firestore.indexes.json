@@ -1,0 +1,23 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "reports",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "universe", "order": "ASCENDING" },
+        { "fieldPath": "functionalWing", "order": "ASCENDING" },
+        { "fieldPath": "currentStatusStage", "order": "ASCENDING" },
+        { "fieldPath": "dueDateComputed", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "reports",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "jurisdictionName", "order": "ASCENDING" },
+        { "fieldPath": "aapYear", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
