@@ -90,3 +90,7 @@ pydot~=1.4.2
 # Optional: statsmodels is only used in chapter 15 for time series analysis
 statsmodels~=0.14.0
 
+##### PDF to Word utility
+pdfplumber~=0.10.3
+python-docx~=1.1.0
+pytesseract~=0.3.10
